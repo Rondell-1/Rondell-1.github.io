@@ -1,0 +1,159 @@
+@font-face {
+    font-family: ptserif-regular;
+    src: url(fonts/PTSerif-Regular.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ptserif-regular;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+figcaption {
+    font-size: 1.0rem;
+}
+
+h1, h2, h3 {
+    margin-bottom: 20px;
+}
+
+.page_format {
+    padding: 0px 50px 0px 50px;
+}
+
+.sub_topic {
+    position: relative;
+    margin-bottom: 0px;
+}
+
+.logo {
+    padding: 5px;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(166, 177, 225), rgba(166, 177, 225, 0.185), rgb(166, 177, 225));
+}
+
+.pages {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.pages_links {
+    display: flex;
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+    justify-content: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.pages_links a {
+    font-size: 1.6rem;
+    color: #A6B1E1;
+    text-decoration: none;
+    padding: 0px 12px 0px 12px;
+}
+
+.button {
+    padding: 2px;
+    color: #424874;
+    border-radius: 2px;
+    border: 1px solid #424874;
+    text-decoration: none;
+    background-color: #CACFD6;
+}
+
+.button:hover {
+    color: white;
+    background-color: #424874;
+}
+
+.pages_links a:hover {
+    color: #7c84a8;
+    text-decoration: none;
+}
+
+.display_images figure {
+    margin-bottom: 20px;
+}
+
+.display_images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.display_images figure p {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.display_images figure {
+    border: 2px solid #424874;
+}
+
+.display_images figure img {
+    display: flex;
+}
+
+.custom_figure {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #424874;
+}
+
+.custom_figure_content {
+    display: flex;
+    background-color: #D6E5E3;
+}
+
+.custom_figure_content figcaption p {
+    padding-left: 10px;
+}
+
+.figure_points_pics {
+    display: flex;
+    background-color: #D6E5E3;
+}
+
+.figure_points_pics figure h2, h3 {
+    margin-bottom: 0px;
+}
+
+.figure_points_pics figcaption {
+    padding-left: 40px;
+}
+
+.figure_points_pics p {
+    font: bold;
+    margin-bottom: 20px;
+}
+
+.custom_figure img {
+    padding: 5px;
+    display: flex;
+    border-radius: 10px;
+}
+
+.separate {
+    position: relative;
+    border-bottom: 2px solid #424874;
+}
+
+.figure_heading {
+    color: #424874;
+    background-color: #CACFD6;
+}
+
+.main_topic {
+    color: white;
+    padding-left: 50px;
+    font-size: 2rem;
+    background-image: linear-gradient(to right, rgb(166, 177, 225), rgba(166, 177, 225, 0.185), rgb(166, 177, 225));
+}
